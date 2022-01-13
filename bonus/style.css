@@ -1,0 +1,131 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', serif;
+    font-size: 16px;
+    color: black;
+}
+
+
+
+/* links */
+a {
+    color:rgb(45, 174, 230);
+    text-decoration: none;
+    transition:0.3s
+}
+
+a:hover {
+    color:rgb(18, 126, 172);
+    text-decoration: none;
+    transition:0.3s
+}
+
+
+
+/* tipografia */
+p {
+    margin:20px 0;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 18px;
+    color: #666;
+    margin:0 0 5px 0;
+    font-weight: 600;
+}
+
+ul {
+    margin: 0 0 30px 0;
+}
+
+
+
+/* contenuto */
+#container {
+    margin: 0 auto;
+    max-width: 768px;
+    background-color: #eee;
+}
+
+header {
+    background-image: url("../img/pattern.png");
+    background-size: 40%;
+    background-repeat: repeat;
+    background-color: rgb(78, 160, 255);
+    height: 100px;
+    position: relative;
+}
+
+main, footer {
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+figure {
+    margin: 20px 0 0 0;
+    font-size: 13px;
+}
+
+#logo {
+    width: 200px;
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+}
+
+.date {
+    color: #666;
+    font-size: 12px;
+    margin:0;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+
+
+/* tabella*/
+th {
+    background-color: #20a9e5;
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(odd) {
+    background-color: #b1e5f2;
+}
+
+.tbl-cell-small {
+    width: 20%;
+}
+
+.tbl-cell-large {
+    width: 60%;
+}
+
+
+
+/* testo nelle immagini del footer */
+.text-img {
+    color: white;
+    position: relative;
+}
+
+.top-left-text {
+    position: absolute;
+    left: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 10px;
+}
