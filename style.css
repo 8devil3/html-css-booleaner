@@ -86,6 +86,10 @@ figure {
 
 
 /* tabella*/
+table{
+    border-collapse: collapse
+}
+
 th {
     background-color: #20a9e5;
     color: white;
