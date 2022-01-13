@@ -88,6 +88,14 @@ tr:nth-child(odd) {
     background-color: #b1e5f2;
 }
 
+.tbl-cell-small {
+    width: 20%;
+}
+
+.tbl-cell-large {
+    width: 60%;
+}
+
 
 
 /* testo nelle immagini del footer */
