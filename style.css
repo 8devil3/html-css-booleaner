@@ -1,5 +1,6 @@
 body {
-    padding: 10px;
+    padding: 0;
+    margin: 0;
     font-family: 'Times New Roman', serif;
     color: black;
 }
@@ -46,17 +47,21 @@ ul {
 
 
 /* contenuto */
-figure {
-    margin: 20px 0 0 0;
-}
-
-.banner {
+header {
     background-image: url("img/pattern.png");
     background-size: 40%;
     background-repeat: repeat;
     background-color: rgb(78, 160, 255);
     height: 100px;
     position: relative;
+}
+
+main, footer {
+    padding: 10px;
+}
+
+figure {
+    margin: 20px 0 0 0;
 }
 
 #logo {
